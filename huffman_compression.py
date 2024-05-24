@@ -8,7 +8,7 @@ class Node:
         self.left = None
         self.right = None
 
-    # Define comparators for priority queue
+
     def __lt__(self, other):
         return self.freq < other.freq
 
@@ -79,16 +79,16 @@ def main():
         print(f"'{char}': {freq}")
     print("="*40)
 
-    # Build Huffman Tree
+
     huffman_tree = build_huffman_tree(frequencies)
 
-    # Print Huffman Tree
+ 
     print("\nHuffman Tree:")
     print("="*40)
     print_huffman_tree(huffman_tree)
     print("="*40)
 
-    # Build codebook
+
     codebook = build_codes(huffman_tree)
     print("\nCodebook:")
     print("="*40)
@@ -96,7 +96,7 @@ def main():
         print(f"'{char}': {code}")
     print("="*40)
 
-    # Encode text
+
     encoded_text = encode_text(text, codebook)
     with open('encoded.txt', 'w') as file:
         file.write(encoded_text)
@@ -105,7 +105,6 @@ def main():
     print(encoded_text)
     print("="*40)
 
-    # Decode text
     decoded_text = decode_text(encoded_text, huffman_tree)
     with open('decoded.txt', 'w') as file:
         file.write(decoded_text)
