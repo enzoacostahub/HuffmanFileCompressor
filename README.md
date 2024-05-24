@@ -41,7 +41,7 @@ Utilizando o livro de códigos, o texto de entrada é convertido em uma sequênc
 Para descompactar o texto, a sequência de pseudo-bits é convertida de volta para o texto original percorrendo a Árvore de Huffman.
 
 ## Estrutura do Projeto
-- `huffman.py`: Contém a implementação dos métodos de compressão e descompressão usando Codificação de Huffman.
+- `huffman_compression.py`: Contém a implementação dos métodos de compressão e descompressão usando Codificação de Huffman.
 - `input.txt`: Arquivo de texto de entrada que será compactado.
 - `encoded.txt`: Arquivo de texto gerado após a compactação (sequência de pseudo-bits).
 - `decoded.txt`: Arquivo de texto gerado após a descompactação (texto original).
