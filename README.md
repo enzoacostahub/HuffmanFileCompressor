@@ -48,7 +48,7 @@ Para descompactar o texto, a sequência de pseudo-bits é convertida de volta pa
 
 ## Uso
 1. Coloque o texto que deseja compactar no arquivo `input.txt`.
-2. Execute o programa `huffman.py`.
+2. Execute o programa `huffman_compression.py`.
 3. O programa irá gerar os arquivos `encoded.txt` (texto compactado) e `decoded.txt` (texto original descompactado).
 
 ### Comandos
@@ -120,4 +120,3 @@ Este é um exemplo de texto...
 ## Conclusão
 Este projeto demonstra como a Codificação de Huffman pode ser usada para compactar e descompactar arquivos de texto de forma eficiente. A implementação inclui todas as etapas necessárias para calcular as frequências dos caracteres, construir a árvore de Huffman, gerar o livro de códigos, e realizar a codificação e decodificação do texto.
 
-Sinta-se à vontade para explorar o código e ajustar conforme necessário para atender às suas necessidades específicas.
